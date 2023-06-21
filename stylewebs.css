@@ -4,7 +4,7 @@ p {
 }
 
 body{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(228, 228, 228);
 }
 
 h1{
@@ -12,3 +12,23 @@ h1{
     text-align: center; 
     color: rgb(0, 0, 0);
 }
+
+footer{
+    box-sizing: border-box;  
+}
+
+.quotegrid{
+    display: grid;
+    gap: 1rem;
+    /*grid-template-columns: repeat(4, 1fr);*/
+}
+
+.toplinks{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+a:hover {
+    background-color: rgba(255, 255, 0, 0.25);
+  }
